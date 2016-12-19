@@ -1,0 +1,18 @@
+
+<html>
+<head><title>Numbers</title></head>
+<body>
+Number 1: <input type="text" id="n1">
+<br/>
+Number 2:<input type="text" id="n2">
+<br/>
+<input type="button" value="Add"
+	onclick="num1=parseFloat(document.getElementById('n1').value);
+		     num2=parseFloat(document.getElementById('n2').value); 
+             sum=num1+num2;
+             document.getElementById('ans').value=sum; "
+     > 
+<br/>
+Answer: <input type"answer" id="ans">
+</body>
+</html>
